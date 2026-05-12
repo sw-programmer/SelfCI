@@ -1,0 +1,25 @@
+[project]
+name = "ci"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.13.0",
+    "datasets>=4.6.0",
+    "flash-attn>=2.8.3",
+    "langgraph>=1.1.2",
+    "litellm>=1.82.0",
+    "math-verify>=0.9.0",
+    "openai>=2.21.0",
+    "peft>=0.18.1",
+    "trl>=0.29.0",
+    "vllm>=0.15.1",
+    "wandb>=0.25.1",
+]
+
+[tool.uv]
+no-build-isolation-package = ['flash-attn']
+
+[tool.uv.extra-build-dependencies]
+flash-attn = ["torch"]
