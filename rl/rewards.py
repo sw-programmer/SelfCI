@@ -3,7 +3,7 @@ from __future__ import annotations
 import re
 from typing import Any, Iterable, Sequence
 
-from utils.response_parsing import (
+from src.utils.response_parsing import (
     extract_response_block,
     extract_response_text_for_metrics_with_status,
     has_reasoning_block,

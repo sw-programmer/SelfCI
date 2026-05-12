@@ -29,7 +29,7 @@ else:
     logger.warning("Dotenv not found at {}", ENV_PATH)
 
 from rl.rewards import contextual_integrity_reward, contextual_integrity_reward_metrics
-from utils.preprocess import prepare_grpo_dataset_splits_from_hf
+from src.utils.preprocess import prepare_grpo_dataset_splits_from_hf
 
 DATASET_NAME_OR_PATH = "huseyinatahaninan/ContextualIntegritySyntheticDataset"
 TRAIN_SPLIT = "train"
