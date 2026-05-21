@@ -1,13 +1,20 @@
-# <p align="center">[It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs]()</p>
-
-we propose **SelfCI**, a complementary self-distillation framework that
-decouples information suppression from task resolution for Contextual Integrity in LLMs.
+# <p align="center">It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs</p>
 
 <p align="center">
-  <img src="./assets/main_fig.png" width="650">
+  <a href="https://arxiv.org/abs/2605.20258">
+    <img src="https://img.shields.io/badge/arXiv-2605.20258-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white" alt="arXiv">
+  </a>
+  <a href="https://huggingface.co/papers/2605.20258">
+    <img src="https://img.shields.io/badge/🤗%20HuggingFace-Visit-yellow?style=for-the-badge" alt="Hugging Face">
+  </a>
 </p>
 
-This directory contains the training and evaluation scripts for SelfCI and the GRPO-based [CI-RL](https://arxiv.org/abs/2506.04245) baseline on [contextual-integrity dataset](https://huggingface.co/datasets/huseyinatahaninan/ContextualIntegritySyntheticDataset).
+we propose **SelfCI**, a complementary self-distillation framework that
+decouples information suppression from task resolution for Contextual Integrity in LLMs. This directory contains the training and evaluation scripts for SelfCI and the GRPO-based [CI-RL](https://arxiv.org/abs/2506.04245) baseline on [contextual-integrity dataset](https://huggingface.co/datasets/huseyinatahaninan/ContextualIntegritySyntheticDataset).
+
+<p align="center">
+  <img src="./assets/main_fig.png" width="750">
+</p>
 
 ## Setup
 - Python `>=3.12`
@@ -135,3 +142,11 @@ For all evaluation options:
 
 ## Citation
 If you find our work useful, please consider citing:
+```
+@article{
+  title={It Takes Two: Complementary Self-Distillation for Contextual Integrity in LLMs},
+  author={Park, Sangwoo and Yeo, Woongyeong and Lee, Seanie and Choi, Yumin and Lee, Hyomin and Kim, Kangsan and Baek, Jinheon and Oh, Seong Joon and Hwang, Sung Ju},
+  journal={arXiv preprint arXiv:2605.20258},
+  year={2026}
+}
+```
