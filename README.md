@@ -10,7 +10,7 @@
 </p>
 
 we propose **SelfCI**, a complementary self-distillation framework that
-decouples information suppression from task resolution for Contextual Integrity in LLMs. This directory contains the training and evaluation scripts for SelfCI and the GRPO-based [CI-RL](https://arxiv.org/abs/2506.04245) baseline on [contextual-integrity dataset](https://huggingface.co/datasets/huseyinatahaninan/ContextualIntegritySyntheticDataset).
+decouples information suppression from task resolution for Contextual Integrity in LLMs. This directory contains the training and evaluation scripts for our **SelfCI** and the GRPO baseline [CI-RL](https://arxiv.org/abs/2506.04245).
 
 <p align="center">
   <img src="./assets/main_fig.png" width="750">
